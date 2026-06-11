@@ -1,1 +1,44 @@
+body{
+    font-family:'Segoe UI',sans-serif;
+}
 
+.hero{
+    background:#0f172a;
+    color:white;
+    padding:100px 0;
+}
+
+.hero h1{
+    font-size:56px;
+    font-weight:bold;
+}
+
+.hero h2{
+    color:#60a5fa;
+}
+
+.profile-img{
+    width:300px;
+    border-radius:50%;
+    border:5px solid white;
+}
+
+.section-title{
+    margin-bottom:30px;
+    font-weight:bold;
+}
+
+.skill-card{
+    margin-bottom:20px;
+    height:100%;
+}
+
+.project-card{
+    margin-bottom:20px;
+}
+
+.footer-section{
+    background:#0f172a;
+    color:white;
+    padding:50px 0;
+}
