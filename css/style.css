@@ -1,44 +1,59 @@
-body{
-    font-family:'Segoe UI',sans-serif;
-}
-
 .hero{
     background:#0f172a;
     color:white;
-    padding:100px 0;
+    padding:120px 0;
 }
 
 .hero h1{
-    font-size:56px;
-    font-weight:bold;
+    font-size:64px;
+    font-weight:700;
 }
 
 .hero h2{
     color:#60a5fa;
-}
-
-.profile-img{
-    width:300px;
-    border-radius:50%;
-    border:5px solid white;
-}
-
-.section-title{
-    margin-bottom:30px;
-    font-weight:bold;
-}
-
-.skill-card{
     margin-bottom:20px;
-    height:100%;
+}
+
+.hero-badge{
+    display:inline-block;
+    background:#1e40af;
+    padding:8px 15px;
+    border-radius:30px;
+    margin-bottom:20px;
+}
+
+.hero-photo{
+    width:320px;
+    border-radius:50%;
+    border:6px solid white;
+}
+
+.stats-section{
+    padding:60px 0;
+}
+
+.stat-card{
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 5px 20px rgba(0,0,0,.08);
+}
+
+.tech-grid{
+    display:flex;
+    gap:15px;
+    flex-wrap:wrap;
+}
+
+.tech-grid span{
+    background:#e2e8f0;
+    padding:10px 20px;
+    border-radius:30px;
 }
 
 .project-card{
-    margin-bottom:20px;
-}
-
-.footer-section{
-    background:#0f172a;
-    color:white;
-    padding:50px 0;
+    background:white;
+    border-radius:20px;
+    overflow:hidden;
+    box-shadow:0 5px 20px rgba(0,0,0,.08);
 }
